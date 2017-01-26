@@ -6,5 +6,6 @@ package com.pluralsight.jacket.entry.exceptions;
 public class JacketException extends RuntimeException {
     public JacketException(String message, Exception ex) {
         super(message, ex);
+	system.out.println("go for it....");
     }
 }
