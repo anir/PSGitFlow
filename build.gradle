@@ -45,7 +45,7 @@ dependencies {
 }
 
 task wrapper(type: Wrapper) {
-    gradleVersion = '3.9'
+    gradleVersion = '4.9'
 }
 
 
