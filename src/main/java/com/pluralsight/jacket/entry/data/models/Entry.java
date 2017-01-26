@@ -8,7 +8,11 @@ import javax.persistence.Table;
 @Table(name = "entries")
 public class Entry extends BaseModel {
 
+<<<<<<< HEAD
     // fields used by the databases
+=======
+    // needed for authentication
+>>>>>>> release/sprint2-release
     private String url;
     private String title;
 
